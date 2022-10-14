@@ -5,6 +5,8 @@ import urllib.request as request
 BUFF_SIZE = 1024
 
 
+# url: http://livropython.com.br/dados.zip
+
 def download_length(response, output, length):
     qtd_pacotes = length // BUFF_SIZE
 

@@ -1,10 +1,11 @@
 import os
 
 
-# def ler_diretorio_os():
-#     # os.listdir("/home/cayo/Documents/SENAI-BigData/Projetos/IOT-with-python/aula-06-meu-projeto-python/meta-data")
-#     for meta_file in os.listdir("./meta-data"):
-#         print(meta_file.split(".")[0])
+def ler_diretorio_os():
+    # os.listdir("/home/cayo/Documents/SENAI-BigData/Projetos/IOT-with-python/aula-06-meu-projeto-python/meta-data")
+    for meta_file in os.listdir("./meta-data"):
+        print(meta_file.split(".")[0])
+
 
 def extract_name(name):
     return name.split(".")[0]
