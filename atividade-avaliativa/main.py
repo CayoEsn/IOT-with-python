@@ -42,12 +42,12 @@ class Aluno():
         """
         media = round(((self.nota1 + self.nota2 + self.nota3) / 3), 2)
 
-        print("\n------------- Boletim -------------")
-        print("\nNota 1: {}".format(self.nota1))
-        print("Nota 2: {}".format(self.nota2))
-        print("Nota 3: {}".format(self.nota3))
+        print("\n------------ Boletim ------------")
+        print("\n\tNota 1: {}".format(self.nota1))
+        print("\tNota 2: {}".format(self.nota2))
+        print("\tNota 3: {}".format(self.nota3))
 
-        print("\nA média do aluno é: {}".format(media))
+        print("\n\tA média do aluno é: {}".format(media))
         print("---------------------------------")
 
 
